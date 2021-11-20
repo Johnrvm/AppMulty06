@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Principal cliente">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_baseline_api_24"
+                android:title="Servicios"/>
+
+            <item
+                android:id="@+id/personas"
+                android:icon="@drawable/ic_baseline_api_24"
+                android:title="personas"/>
+        </menu>
+    </item>
+    <item android:title="Secundario">
+
+        <menu>
+            <item
+                android:id="@+id/home2"
+                android:icon="@drawable/ic_baseline_api_24"
+                android:title="home"/>
+
+            <item
+                android:id="@+id/Cuenta"
+                android:icon="@drawable/ic_baseline_api_24"
+                android:title="Cuenta"/>
+        </menu>
+    </item>
+</menu>
